@@ -1,0 +1,5 @@
+﻿modelo,n_observaciones,roc_auc_media,roc_auc_mediana,roc_auc_std,roc_auc_min,roc_auc_max,valor_referencia_azar,wilcoxon_statistic,p_value,alternative,interpretacion
+Árbol de Decisión,6000,0.500661,0.5,0.058118,0.32,0.72,0.5,8097255.0,0.602752,ROC-AUC > 0.5,No se observa rendimiento significativamente superior al azar
+K-Nearest Neighbors,6000,0.500513,0.5,0.057727,0.289,0.745,0.5,8965781.0,0.294184,ROC-AUC > 0.5,No se observa rendimiento significativamente superior al azar
+Regresión Logística,6000,0.500483,0.5,0.076269,0.256,0.778,0.5,8937529.0,0.354285,ROC-AUC > 0.5,No se observa rendimiento significativamente superior al azar
+Random Forest,6000,0.499795,0.501,0.079293,0.216,0.753,0.5,8964851.0,0.378672,ROC-AUC > 0.5,No se observa rendimiento significativamente superior al azar

@@ -1,0 +1,2 @@
+﻿modelo,modelo_nombre,n_sample,n_iter_por_signo,k_folds,n_signos_procesados,n_iteraciones_totales,n_observaciones_resultado,tiempo_entrenamiento_total_seg,tiempo_entrenamiento_total_min,tiempo_pipeline_total_seg,tiempo_pipeline_total_min,tiempo_promedio_iteracion_seg,memoria_inicio_pipeline_gb,memoria_fin_pipeline_gb,diferencia_memoria_pipeline_gb,observacion
+lr,Regresión Logística,100,500,5,12,6000,6000,423.92,7.07,659.69,10.99,0.0707,0.1815,5.4027,5.2212,Métricas calculadas a partir de tiempo de ejecución y memoria RSS observada por proceso.

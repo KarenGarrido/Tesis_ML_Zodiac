@@ -1,0 +1,17 @@
+﻿modelo,etapa,tiempo_segundos,tiempo_minutos,memoria_inicio_gb,memoria_fin_gb,diferencia_memoria_gb,observacion
+knn,Carga y preparación de datos,243.44,4.06,0.1848,12.1155,11.9307,"Dataset (5808498, 488), N_SAMPLE=100, N_ITER=500, K_FOLDS=5"
+knn,Entrenamiento y evaluación - signo_zodiacal_acuario,50.22,0.84,12.1185,11.7893,-0.3291,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_aries,48.55,0.81,11.7893,11.6647,-0.1247,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_capricornio,48.87,0.81,11.6647,11.4852,-0.1794,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_cancer,48.47,0.81,11.4853,11.3606,-0.1247,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_escorpio,48.01,0.8,11.3606,11.1374,-0.2231,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_geminis,52.34,0.87,11.1374,10.65,-0.4875,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_leo,47.34,0.79,10.65,10.6083,-0.0417,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_libra,45.78,0.76,10.6083,10.5599,-0.0484,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_piscis,45.29,0.75,10.5599,10.5042,-0.0557,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_sagitario,43.83,0.73,10.5042,10.4427,-0.0615,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_tauro,42.72,0.71,10.4427,10.5001,0.0573,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación - signo_zodiacal_virgo,42.9,0.72,10.5001,10.5533,0.0533,"500 iteraciones, CV=5, N_SAMPLE=100"
+knn,Entrenamiento y evaluación total,564.38,9.41,12.1165,10.5539,-1.5626,"12 signos, 500 iteraciones por signo, CV=5, N_SAMPLE=100"
+knn,Guardado final de resultados,0.16,0.0,10.5539,10.5621,0.0081,Exportación de detalle y resumen
+knn,Pipeline completo,808.02,13.47,0.1848,10.5621,10.3772,Tiempo total desde configuración hasta guardado final

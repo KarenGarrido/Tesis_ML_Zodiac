@@ -1,0 +1,17 @@
+﻿modelo,etapa,tiempo_segundos,tiempo_minutos,memoria_inicio_gb,memoria_fin_gb,diferencia_memoria_gb,observacion
+lr,Carga y preparación de datos,235.58,3.93,0.1815,12.2712,12.0897,"Dataset (5808498, 488), N_SAMPLE=100, N_ITER=500, K_FOLDS=5"
+lr,Entrenamiento y evaluación - signo_zodiacal_acuario,40.23,0.67,12.2747,11.5811,-0.6936,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_aries,38.47,0.64,11.5811,11.4501,-0.131,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_capricornio,37.09,0.62,11.4501,9.8714,-1.5786,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_cancer,35.03,0.58,9.8714,9.9899,0.1184,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_escorpio,35.23,0.59,9.9899,9.8536,-0.1363,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_geminis,34.66,0.58,9.8536,9.9606,0.107,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_leo,35.83,0.6,9.9606,9.9352,-0.0254,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_libra,35.23,0.59,9.9352,4.5751,-5.3601,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_piscis,33.2,0.55,4.5751,4.7895,0.2144,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_sagitario,33.13,0.55,4.7895,4.9975,0.208,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_tauro,32.9,0.55,4.9975,5.1982,0.2007,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación - signo_zodiacal_virgo,32.87,0.55,5.1982,5.3937,0.1955,"500 iteraciones, CV=5, N_SAMPLE=100"
+lr,Entrenamiento y evaluación total,423.92,7.07,12.2723,5.3941,-6.8782,"12 signos, 500 iteraciones por signo, CV=5, N_SAMPLE=100"
+lr,Guardado final de resultados,0.16,0.0,5.3941,5.4026,0.0085,Exportación de detalle y resumen
+lr,Pipeline completo,659.69,10.99,0.1815,5.4027,5.2212,Tiempo total desde configuración hasta guardado final

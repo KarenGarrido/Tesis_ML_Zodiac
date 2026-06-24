@@ -1,0 +1,5 @@
+﻿modelo,modelo_nombre,n_signos_medidos,tiempo_carga_seg,tiempo_carga_min,tiempo_entrenamiento_total_seg,tiempo_entrenamiento_total_min,tiempo_guardado_seg,tiempo_guardado_min,tiempo_pipeline_total_seg,tiempo_pipeline_total_min,tiempo_promedio_por_signo_seg,tiempo_std_por_signo_seg,tiempo_min_por_signo_seg,tiempo_max_por_signo_seg,memoria_inicio_pipeline_gb,memoria_fin_pipeline_gb,diferencia_memoria_pipeline_gb
+dt,Árbol de Decisión,12,327.94,5.4657,401.68,6.6947,0.18,0.003,729.83,12.1638,33.4708,4.4323,27.98,38.71,0.1882,6.6242,6.436
+lr,Regresión Logística,12,235.58,3.9263,423.92,7.0653,0.16,0.0027,659.69,10.9948,35.3225,2.3181,32.87,40.23,0.1815,5.4027,5.2212
+rf,Random Forest,12,296.33,4.9388,6050.09,100.8348,0.11,0.0018,6346.62,105.777,504.1658,5.9492,500.19,521.63,0.1883,2.9954,2.8071
+knn,K-Nearest Neighbors,12,243.44,4.0573,564.38,9.4063,0.16,0.0027,808.02,13.467,47.0267,2.9796,42.72,52.34,0.1848,10.5621,10.3772

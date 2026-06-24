@@ -1,0 +1,17 @@
+﻿modelo,modelo_nombre,etapa,tiempo_segundos,tiempo_minutos,memoria_inicio_gb,memoria_fin_gb,diferencia_memoria_gb
+dt,Árbol de Decisión,Carga y preparación de datos,327.94,5.47,0.1882,11.4079,11.2197
+dt,Árbol de Decisión,Entrenamiento y evaluación total,401.68,6.69,11.409,6.6158,-4.7932
+dt,Árbol de Decisión,Guardado final de resultados,0.18,0.0,6.6159,6.6242,0.0083
+dt,Árbol de Decisión,Pipeline completo,729.83,12.16,0.1882,6.6242,6.436
+lr,Regresión Logística,Carga y preparación de datos,235.58,3.93,0.1815,12.2712,12.0897
+lr,Regresión Logística,Entrenamiento y evaluación total,423.92,7.07,12.2723,5.3941,-6.8782
+lr,Regresión Logística,Guardado final de resultados,0.16,0.0,5.3941,5.4026,0.0085
+lr,Regresión Logística,Pipeline completo,659.69,10.99,0.1815,5.4027,5.2212
+rf,Random Forest,Carga y preparación de datos,296.33,4.94,0.1883,12.0214,11.8331
+rf,Random Forest,Entrenamiento y evaluación total,6050.09,100.83,12.0229,2.9906,-9.0323
+rf,Random Forest,Guardado final de resultados,0.11,0.0,2.9906,2.9954,0.0048
+rf,Random Forest,Pipeline completo,6346.62,105.78,0.1883,2.9954,2.8071
+knn,K-Nearest Neighbors,Carga y preparación de datos,243.44,4.06,0.1848,12.1155,11.9307
+knn,K-Nearest Neighbors,Entrenamiento y evaluación total,564.38,9.41,12.1165,10.5539,-1.5626
+knn,K-Nearest Neighbors,Guardado final de resultados,0.16,0.0,10.5539,10.5621,0.0081
+knn,K-Nearest Neighbors,Pipeline completo,808.02,13.47,0.1848,10.5621,10.3772
